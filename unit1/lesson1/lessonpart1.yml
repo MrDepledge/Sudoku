@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Welcome to Sudoku
+content: >
+  Here is the Sudoku code alongside the 3 text files students received as part
+  of this paper.
+
+
+  1. have a look at the three text files
+
+  2. run the code and L (load a puzzle file)
+
+  3. enter puzzle1
+
+  4. enter S to solve the puzzle
+
+
+  Can you see how the puzzle1.txt file links to the puzzle displayed on the
+  screen?

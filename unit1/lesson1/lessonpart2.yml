@@ -1,0 +1,49 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart2
+title: Updating code so that you can't change the original puzzle
+content: >
+  We need to change the code in **SolvePuzzle** so that
+
+
+  * after the user has entered their triple (row, column, value)
+
+  * and it is checked to be OK
+
+  * We check across the values in the **Puzzle** list
+
+  * if we find a similar row and column then we don't allow the user to make
+  this move and put up an error message 
+
+
+  **For example:** 
+
+
+  The **Puzzle** list contains the value `314`\
+
+  If the user enters the triple `318` they are trying to change the value of a
+  cell in the original puzzle.
+
+
+  In **ShowPuzzle**
+
+
+  * You could make use of **CellInfo** this would be storing `'318'` and you
+  need to scan the **Puzzle** list and also match against `'314'` (ie you are
+  matching the first two characters only
+
+  * You could make use of **Row** ( int 3 ) and **Column** ( int 1 ) and do
+  something similar to the above
+
+
+  Develop a solution for **ShowPuzzle** and then copy this subroutine and send a
+  copy to Mr Colliver.
+
+
+  **NOTE** - you can make use of the `simpler.py` file which contains a very cut
+  down version of the code that does run and allow you to solve this problem.
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart2/sudoku.py
+  - course1/unit1/lesson1/lessonpart2/puzzle1S.txt
+  - course1/unit1/lesson1/lessonpart2/puzzle1P.txt
+  - course1/unit1/lesson1/lessonpart2/puzzle1.txt
