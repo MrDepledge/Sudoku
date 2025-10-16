@@ -315,6 +315,15 @@ files:
       783615249
       596247381
       241938576
+  - path: course1/unit1/lesson1/lessonpart2/puzzle1P.txt
+    content: |
+      puzzle1
+      -1
+      4
+      257
+      337
+      616
+      527
   - path: course1/unit1/lesson1/lessonpart2/puzzle1.txt
     content: |
       118
